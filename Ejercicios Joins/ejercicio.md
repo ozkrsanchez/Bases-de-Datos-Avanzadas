@@ -103,3 +103,16 @@ Condición: Todas las películas del catálogo deben aparecer usando un RIGHT JO
 Queremos una conciliación total entre nuestros empleados y las rentas para ver empleados sin ventas y rentas realizadas por máquinas. Muestra el nombre del empleado (nombreEmpleado) y el ID de la renta (idRenta).
 
 Condición: Como MySQL no soporta FULL OUTER JOIN de forma nativa, deberás emularlo utilizando la cláusula UNION.
+
+## ⚙️ Parte 4: Entrega del Proyecto (GitHub)
+
+Para finalizar la práctica, deberán compartir su trabajo simulando un entorno profesional. Crea un repositorio **público** en [GitHub](https://github.com/) y subir los siguientes elementos:
+
+1. **`1_esquema_y_datos.sql`**: El script completo con la creación de la base de datos (DDL), las 7 tablas y la inserción de todos los datos de prueba (DML).
+2. **`2_consultas.sql`**: El script con las 4 consultas de negocio (`JOIN`) solicitadas en la Parte 3. Asegúrense de comentar el código indicando a qué reporte corresponde cada consulta.
+3. **Resultados de las consultas**: Pueden entregar esto de dos formas:
+   * Un archivo **`resultados.md`** donde pegues las tablas de salida de las consultas.
+   * Una carpeta llamada **`capturas/`** que contenga imágenes (screenshots) mostrando la ejecución exitosa y los datos devueltos en tu cliente SQL (ej. MySQL Workbench, DBeaver, etc.).
+4. **`README.md`**: Un archivo principal con una breve descripción del proyecto, indicando de qué trata el modelo "Blockbuster Reborn", el diagrama entidad-relación y las tecnologías utilizadas.
+
+*¡No olviden proporcionar el enlace (URL) del repositorio público para poder evaluar el trabajo!*
